@@ -1,8 +1,7 @@
 class PermanentDoctor
-  attr_reader :title, :hourly_rate, :hospital
-  def initialize(title, hourly_rate, hospital)
+  attr_reader :title, :hospital
+  def initialize(title, hospital)
     @title = title
-    @hourly_rate = hourly_rate
     @hospital = hospital
   end
 end
